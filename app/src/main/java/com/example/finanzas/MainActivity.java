@@ -36,7 +36,7 @@
                 public void onClick(View v) {
                     txt=(EditText)findViewById(R.id.EditText1);
 
-                    txtvw.setText("Your Input: \n"+txt.getText().toString()+"\nEnd.");
+                    txtvw.setText("\n"+txt.getText().toString()+"\nEnd.");
                 }
             });
 

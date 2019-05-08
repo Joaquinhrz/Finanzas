@@ -42,8 +42,8 @@
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="97dp"
-                android:layout_height="23dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:padding="5px"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.026"

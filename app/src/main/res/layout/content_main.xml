@@ -8,11 +8,13 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/Tabla"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="1" >
+
 
         <TableRow
             android:id="@+id/Cabecera"
@@ -40,6 +42,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -49,6 +52,7 @@
                 app:layout_constraintHorizontal_bias="0.026"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
         </TableRow>
     </TableLayout>

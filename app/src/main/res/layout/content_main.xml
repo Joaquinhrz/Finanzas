@@ -10,22 +10,57 @@
 
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/Tabla"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:stretchColumns="1" >
-
+        android:id="@+id/Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TableRow
             android:id="@+id/Cabecera"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ColumnaCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="Año"
+            android:textColor="#005500"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/ColumnaBotones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5px"
+            android:text="botones"
+            android:textColor="#005500"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/ColumnaTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="total"
+            android:textColor="#005500"
+            android:textSize="26sp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/Pfila"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/EditText1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="5px"
+
+                android:gravity="center"
                 android:hint="Cantidad"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

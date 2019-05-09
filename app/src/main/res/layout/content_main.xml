@@ -22,33 +22,43 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/ColumnaCantidad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="Cantidad"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/ColumnaCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Cantidad"
+                android:textColor="#005500"
+                android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/ColumnaBotones"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:padding="5px"
-            android:text="botones"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/ColumnaBotonesA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="BotonesA"
+                android:textColor="#005500"
+                android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/ColumnaTotal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5px"
-            android:text="total"
-            android:textColor="#005500"
-            android:textSize="26sp" />
+            <TextView
+                android:id="@+id/ColumnaBotonesQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="BotonesQ"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/ColumnaTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Total"
+                android:textColor="#005500"
+                android:textSize="26sp" />
         </TableRow>
         <TableRow
             android:id="@+id/Pfila1"
@@ -69,9 +79,21 @@
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:padding="5px"
                 android:text="Agregar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonq1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5px"
+                android:text="Quitar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="100"
                 app:layout_constraintStart_toStartOf="parent"
@@ -82,6 +104,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end"
                 android:padding="5px"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.026"
@@ -113,6 +136,18 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="5px"
                 android:text="Agregar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5px"
+                android:text="Quitar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="100"
                 app:layout_constraintStart_toStartOf="parent"
@@ -159,6 +194,18 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <Button
+                android:id="@+id/buttonq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5px"
+                android:text="Quitar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <TextView
                 android:id="@+id/textView3"
@@ -195,6 +242,18 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="5px"
                 android:text="Agregar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5px"
+                android:text="Quitar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="100"
                 app:layout_constraintStart_toStartOf="parent"
